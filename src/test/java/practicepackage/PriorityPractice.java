@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class PriorityPractice {
-@Test(dependsOnMethods = "reciveMsg")
+@Test(groups = "smoke")
 public void Sendmsg() {
 	System.out.println("Message sent successfully");
 }
@@ -13,7 +13,7 @@ public void reciveMsg() {
 	System.out.println("Message is recived successfully");
 	Assert.fail();
 }
-@Test(dependsOnMethods = "Sendmsg")
+@Test(groups = "smoke")
 public void faildMessage() {
 	System.out.println("Message sended failed");
 }

@@ -17,6 +17,9 @@ public static void main(String[] args) {
 	driver.get("https://www.flipkart.com/");
 	
 	driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
-	driver.findElement(By.name("//input[@name='q']")).sendKeys("titan watch");
+	//driver.findElement(By.name("//input[@name='q']")).sendKeys("titan watch");
+	driver.findElement(By.xpath("//input[@title='Search for products, brands and more']")).sendKeys("SAMSUNG Galaxy F23 5G");
+	driver.findElement(By.xpath("//button[@class='L0Z3Pu']")).click();
+	driver.findElement(By.xpath("//div[@data-tkid='f01245cc-045b-4f2e-993c-df8c5ad1cfb7.MOBFE4CSQ4MDCBWF.SEARCH']/descendant::span[.='SAMSUNG Galaxy F23 5G (Forest Green, 128 GB)")).click();
 }
 }

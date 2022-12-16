@@ -1,4 +1,4 @@
-package practicepackage;
+package DataProvider;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.DataProvider;
@@ -19,13 +19,14 @@ public class GetData extends BaseClass {
 	}
 	@DataProvider
 	public Object[][] takeData() throws Throwable{
-		Object[][] arr=new Object[7][2];
+		Object[][] arr=new Object[5][2];
 		ExcelUtility elib=new ExcelUtility();
 		System.out.println(elib.getRowCount("Sheet1"));
-		for(int i=1;i<elib.getRowCount("Sheet1");i++) {
+		System.out.println(elib.getRowCount("Sheet1"));
+		for(int i=0;i<elib.getRowCount("Sheet1")-1;i++) {
 			arr[i][0]=elib.getExcelData("Sheet1", i, 0);
 		}
-		for(int j=1;j<elib.getRowCount("Sheet1");j++) {
+		for(int j=0;j<elib.getRowCount("Sheet1")-1;j++) {
 			arr[j][1]=elib.getExcelData("Sheet1", j, 1);
 		
 		}

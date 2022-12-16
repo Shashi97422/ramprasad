@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practicepackage.ReadFromExcel">
+      <class name="TestOrMock.ValidateDataBase_Data">
         <methods>
-          <include name="read"/>
+          <include name="DBconnetion"/>
         </methods>
-      </class> <!-- practicepackage.ReadFromExcel -->
+      </class> <!-- TestOrMock.ValidateDataBase_Data -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
