@@ -13,7 +13,6 @@ public static void main(String[] args) {
 		if(s[i].length()==min) {
 			System.out.println(s[i]);
 		}
-		
 	}
 	
 }

@@ -12,7 +12,6 @@ public static void main(String[] args) {
 	
 	char[] ch1 = name1.toCharArray();
 	char[] ch2 = name2.toCharArray();
-	
 	Arrays.sort(ch1);
 	Arrays.sort(ch2);
 	

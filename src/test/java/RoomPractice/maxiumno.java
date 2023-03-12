@@ -17,7 +17,7 @@ public class maxiumno
 				Smin=a[i];
 			}
 		}
-		System.out.println(Smin);
+		System.out.println(Fmin);
 	}
 }
 

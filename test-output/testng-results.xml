@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8648" started-at="2022-11-30T22:53:10 IST" finished-at="2022-11-30T22:53:19 IST">
+  <suite name="Default suite" duration-ms="63" started-at="2023-01-03T15:36:21 IST" finished-at="2023-01-03T15:36:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8648" started-at="2022-11-30T22:53:10 IST" finished-at="2022-11-30T22:53:19 IST">
-      <class name="TestOrMock.ValidateDataBase_Data">
-        <test-method status="PASS" signature="DBconnetion()[pri:0, instance:TestOrMock.ValidateDataBase_Data@6f195bc3]" name="DBconnetion" duration-ms="8592" started-at="2022-11-30T22:53:10 IST" finished-at="2022-11-30T22:53:19 IST">
+    <test name="Default test" duration-ms="63" started-at="2023-01-03T15:36:21 IST" finished-at="2023-01-03T15:36:21 IST">
+      <class name="Practice.hi">
+        <test-method status="PASS" signature="test1()[pri:0, instance:Practice.hi@6f195bc3]" name="test1" duration-ms="8" started-at="2023-01-03T15:36:21 IST" finished-at="2023-01-03T15:36:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DBconnetion -->
-      </class> <!-- TestOrMock.ValidateDataBase_Data -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Practice.hi@6f195bc3]" name="test2" duration-ms="1" started-at="2023-01-03T15:36:21 IST" finished-at="2023-01-03T15:36:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- Practice.hi -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

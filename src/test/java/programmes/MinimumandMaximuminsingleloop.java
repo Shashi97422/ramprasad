@@ -8,7 +8,7 @@ public class MinimumandMaximuminsingleloop {
 
 		for (int i = 0; i < s.length; i++) 
 		{
-			if(max<s[i].length())
+			if(max>s[i].length())
 			{
 				max=s[i].length();
 			}

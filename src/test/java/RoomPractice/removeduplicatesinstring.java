@@ -10,7 +10,9 @@ public static void main(String[] args) {
 	for (int i = 0; i < ch.length; i++) {
 		set.add(ch[i]);
 	}
-	System.out.println(set);
+	for (Character ch1 : set) {
+		System.out.println(ch1);
+	}
 }
 
 }

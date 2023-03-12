@@ -13,8 +13,8 @@ public static void main(String[] args) {
 				a[j]=temp;
 			}
 		}
-		//System.out.print(a[i]+" ");
+		System.out.print(a[i]+" ");
 	}
-	System.out.println(a[2]);
+//	System.out.println(a[2]);
 }
 }
